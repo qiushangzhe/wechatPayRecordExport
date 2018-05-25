@@ -4,6 +4,7 @@ const through = require('through2');
 const DealWeiXin = require('./rules/weixin');
 const tools = new DealWeiXin();
 const config = require('../config.json');
+const fs = require('fs');
 const port = config.proxyServerPort;
 mitmproxy.createProxy({
     port,
