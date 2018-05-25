@@ -27,3 +27,4 @@ mitmproxy.createProxy({
         next();
     }
 });
+if (!fs.existsSync('./.buffer')) fs.mkdir('./.buffer');
