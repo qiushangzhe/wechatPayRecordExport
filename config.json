@@ -1,0 +1,5 @@
+{
+    "pacServerPort": "9090",
+    "proxyServerPort": "8001",
+    "outputFileName": "微信支出记录"
+}

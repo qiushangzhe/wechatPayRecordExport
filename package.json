@@ -1,0 +1,21 @@
+{
+    "name": "@qiusz/httpsproxy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/main.js",
+        "out": "node ./src/output.js",
+        "start-pac": "node ./src/pac/pac-server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "anyproxy": "^4.0.10",
+        "ip": "^1.1.5",
+        "node-mitmproxy": "^3.1.0",
+        "node-xlsx": "^0.12.0",
+        "through2": "^2.0.3"
+    }
+}
