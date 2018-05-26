@@ -6,7 +6,8 @@
     "scripts": {
         "start": "node ./src/main.js",
         "out": "node ./src/output.js",
-        "start-pac": "node ./src/pac/pac-server.js"
+        "start-pac": "node ./src/pac/pac-server.js",
+        "qr":""
     },
     "author": "",
     "license": "ISC",
