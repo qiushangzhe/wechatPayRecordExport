@@ -11,6 +11,7 @@
 ### 使用步骤
 1. 下载项目 根目录执行 yarn || npm install 
 2. 控制台执行 sudo npm install node-mitmproxy -g
+ - 先执行一下npm start 然后ctrl+c关掉服务。ps：这个步骤是用来初始化证书。（然后再执行步骤3）
 3. 生成CA证书
   - mac : `sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ~/node-mitmproxy/node-mitmproxy.ca.crt`
   - windows: `start %HOMEPATH%/node-mitmproxy/node-mitmproxy.ca.crt` (我没试过)
